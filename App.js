@@ -43,12 +43,12 @@ render(){
         <View style={styles.box}>
         <Animated.Image
         style={[styles.spinner,animatedStyle]}
-        source={require("./resimler/pervane.png")}
+        source={require("./images/pervane.png")}
         resizeMode="contain"
         />
         <Animated.Image
         style={styles.bar}
-        source={require("./resimler/cubuk.png")}
+        source={require("./images/cubuk.png")}
         resizeMode={"contain"}
         />
        </View>
