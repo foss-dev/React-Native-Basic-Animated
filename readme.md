@@ -3,12 +3,11 @@ React native animated component basic example
 
 ------------
 
-####Current Animated View List
+#### Current Animated View List
 
 - Spinner Animated 
 - Animated List View 
 
-------------
 
 
 ![](./src/images/animated.gif)
