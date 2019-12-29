@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet,Animated,StatusBar,SafeAreaView,Easing } from 'react-native';
 
 // create a component
-class App extends Component {
+class Spinner extends Component {
 
   componentDidMount()
   {
@@ -17,7 +17,7 @@ class App extends Component {
 
   startAnimation = () =>{
     Animated.loop(Animated.timing(this.state.animation,{
-      duration:2000,
+      duration:5000,
       toValue:1,
       easing:Easing.linear
     })).start();
@@ -86,5 +86,5 @@ const styles= StyleSheet.create({
 })
 
 
-export default App;
+export default Spinner;
 
